@@ -339,7 +339,7 @@ strong {
 }
 
 .heroText {
-  position: absolute;
+  position: relative;
   z-index: 9;
   top: 50%;
   left: 50%;
@@ -702,7 +702,7 @@ strong {
   }
 }
 
-section.hero div.container {
+section.hero div.container.logo {
     position: relative;
     z-index: 1000;
     background: linear-gradient(#fff, transparent 100%);
